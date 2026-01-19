@@ -1,0 +1,8 @@
+# 排除 Obsidian 的工作区配置（包含窗口布局等，没必要同步）
+.obsidian/workspace
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+
+# 排除缓存
+.obsidian/cache
+DS_Store
