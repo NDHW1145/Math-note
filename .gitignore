@@ -6,3 +6,13 @@
 # 排除缓存
 .obsidian/cache
 DS_Store
+
+# 忽略工作区布局（手机和电脑屏幕大小不一样，布局肯定冲突）
+.obsidian/workspace
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+
+# (可选) 如果你想让手机和电脑的插件开关状态互不干扰，就把下面这行也加上
+# 如果不加这行，你在电脑上关掉一个插件，手机拉取后也会关掉
+.obsidian/core-plugins.json
+.obsidian/community-plugins.json
